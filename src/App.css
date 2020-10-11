@@ -3,7 +3,7 @@
   min-height: 450px;
   margin: 0 auto;
   background-color: #efefef;
-  box-shadow: 0 0 10px grey;
+  box-shadow: 0 0 10px gray;
   margin-top: 50px;
   padding: 15px 50px;
 }
@@ -14,7 +14,7 @@
   display: flex;
   background-color: white;
   justify-content: space-around;
-  box-shadow: 0 0 10px grey;
+  box-shadow: 0 0 10px gray;
 }
 
 .transaction-list{
@@ -27,7 +27,7 @@
   background-color: white;
   margin: 5px 0;
   padding: 5px 5px;
-  box-shadow: 0 0 10px grey;
+  box-shadow: 0 0 10px gray;
 }
 .transaction-form input{
   width: 100%;
