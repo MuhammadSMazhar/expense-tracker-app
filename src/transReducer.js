@@ -1,11 +1,14 @@
-const TransactionReducer = ((state, action) => {
-    switch (action.type) {
-        case "ADD_TRANSACTION": {
+import { TransactionContext } from "./transContext";
+
+const TransactionReducer =((state , action)=>{
+    switch(action.type){
+        case "ADD_TRANSACTION":{
             return [action.payload, ...state]
         }
         default:
-            return state;
+        return state;            
     }
+    
 })
 
 export default TransactionReducer;

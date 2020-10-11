@@ -1,39 +1,36 @@
-.container {
+.container{
   max-width: 400px;
   min-height: 450px;
   margin: 0 auto;
   background-color: #efefef;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px grey;
   margin-top: 50px;
   padding: 15px 50px;
 }
-
-.text-center {
+.text-center{
   text-align: center;
 }
-
-.expensecontainer {
+.expense-container{
   display: flex;
-  justify-content: space-around;
-  box-shadow: 0 0 10px gray;
   background-color: white;
-}
-.transaction-list{
-  padding: 0px;
-  margin: 0px;
+  justify-content: space-around;
+  box-shadow: 0 0 10px grey;
 }
 
+.transaction-list{
+  margin: 0px;
+  padding: 0px;
+}
 .transaction-list li{
   display: flex;
   justify-content: space-between;
-  margin: 5px 0;
-  padding: 10px 5px;
-  box-shadow: 0 0 10px gray;
   background-color: white;
+  margin: 5px 0;
+  padding: 5px 5px;
+  box-shadow: 0 0 10px grey;
 }
-
 .transaction-form input{
   width: 100%;
-  margin: 10px 0;
-  padding: 5px 0;
+  margin: 5px 0;
+  padding: 5px 5px;
 }
