@@ -1,5 +1,3 @@
-import { TransactionContext } from "./transContext";
-
 const TransactionReducer =((state , action)=>{
     switch(action.type){
         case "ADD_TRANSACTION":{
