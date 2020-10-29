@@ -1,9 +1,42 @@
-.container{
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ededed;
+  box-shadow: 0 0 5px gray;
+  min-height: 400px;
+  padding: 20px 50px;
+  margin-top: 50px;
+}
+.text-center {
+  text-align: center;
+}
+
+.total-expense-container {
+  display: flex;
+  justify-content: space-around;
+}
+.expense-list {
+  padding: 0;
+}
+.expense-list > li {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px gray;
+  margin: 10px 0;
+  padding:  10px 5px;
+}
+
+.transaction-form  input {
+  width: 100%;
+  padding: 10px 0;
+}
+/* .container{
   max-width: 400px;
   min-height: 450px;
   margin: 0 auto;
   background-color: #efefef;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px grey;
   margin-top: 50px;
   padding: 15px 50px;
 }
@@ -14,7 +47,7 @@
   display: flex;
   background-color: white;
   justify-content: space-around;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px grey;
 }
 
 .transaction-list{
@@ -27,10 +60,10 @@
   background-color: white;
   margin: 5px 0;
   padding: 5px 5px;
-  box-shadow: 0 0 10px gray;
+  box-shadow: 0 0 10px grey;
 }
 .transaction-form input{
   width: 100%;
   margin: 5px 0;
   padding: 5px 5px;
-}
+} */
